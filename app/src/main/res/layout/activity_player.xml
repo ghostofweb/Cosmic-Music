@@ -212,6 +212,15 @@
             android:contentDescription="@string/share_btn"
             android:layout_weight="1"
             app:tint="@color/cool_pink" />
+        <ImageButton
+            android:id="@+id/playbackSpeed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/speed_icon"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/share_btn"
+            android:layout_weight="1"
+            app:tint="@color/cool_pink" />
 
     </LinearLayout>
 

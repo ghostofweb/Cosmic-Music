@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "932941226019",
+    "project_id": "cosmic-music-3cc59",
+    "storage_bucket": "cosmic-music-3cc59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932941226019:android:fc97c954d24f3b6c735196",
+        "android_client_info": {
+          "package_name": "com.harshRajpurohit.musicPlayer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwXHPQVA1iSdSWPiOdBnyfhrrlt9jP9XM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

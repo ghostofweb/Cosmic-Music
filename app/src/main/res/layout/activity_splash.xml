@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:gravity="center">
+
+    <!-- Centered Icon with subtle bounce -->
+    <ImageView
+        android:id="@+id/splash_icon"
+        android:layout_width="237dp"
+        android:layout_height="202dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/iconsvg" />
+
+    <!-- Text at Bottom with fade effect -->
+    <TextView
+        android:id="@+id/splash_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="Created by Sahiljeet and Jashnam"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:alpha="0" /> <!-- Initially hidden -->
+</RelativeLayout>

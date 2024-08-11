@@ -41,7 +41,8 @@
                         android:drawableTop="@drawable/shuffle_icon"
                         android:text="@string/shuffle_btn"
                         android:textAllCaps="false"
-                        android:textColor="?colorOnPrimary" />
+                        android:textColor="?colorOnPrimary"
+                        android:textSize="11sp"/>
                     <!--Favourites Button-->
                     <Button
                         android:id="@+id/favouriteBtn"
@@ -53,7 +54,8 @@
                         android:drawableTop="@drawable/favourite_icon"
                         android:text="@string/favourites_btn"
                         android:textAllCaps="false"
-                        android:textColor="?colorOnPrimary" />
+                        android:textColor="?colorOnPrimary"
+                        android:textSize="9sp"/>
                     <!--Playlists Button-->
                     <Button
                         android:id="@+id/playlistBtn"
@@ -65,7 +67,8 @@
                         android:drawableTop="@drawable/playlist_icon"
                         android:text="@string/playlist_btn"
                         android:textAllCaps="false"
-                        android:textColor="?colorOnPrimary" />
+                        android:textColor="?colorOnPrimary"
+                        android:textSize="11sp"/>
 
                     <!--Play Next Button-->
                     <Button
@@ -78,7 +81,8 @@
                         android:drawableTop="@drawable/play_next_icon"
                         android:text="@string/play_next"
                         android:textAllCaps="false"
-                        android:textColor="?colorOnPrimary" />
+                        android:textColor="?colorOnPrimary"
+                        android:textSize="11sp"/>
 
                 </LinearLayout>
 
@@ -106,7 +110,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                android:name="com.harshRajpurohit.musicPlayer.NowPlaying"
+                android:name="com.sahiljeet.musicPlayer.NowPlaying"
                 tools:layout="@layout/fragment_now_playing"
                 android:visibility="gone"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
